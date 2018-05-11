@@ -12,6 +12,13 @@ For each of the methods associated with each data structure, classify it based o
 
 4. What is the runtime complexity of `getMax`?
 
+### Linked List Answers
+1. O(1)
+1. (a) ?
+2. O(1)
+3. O(n)
+4. O(n)
+
 
 ## Queue
 
@@ -22,6 +29,12 @@ For each of the methods associated with each data structure, classify it based o
 3. What is the runtime complexity of `isEmpty`?
 
 4. What is the runtime complexity of `length`?
+
+### Queue Answers
+1. O(1)
+2. O(1)
+3. O(1)
+4. O(1)
 
 
 ## Doubly Linked List
@@ -48,6 +61,18 @@ For each of the methods associated with each data structure, classify it based o
 
     a. Compare the runtime of the doubly linked list's `delete` method with the worst-case runtime of the `Array.splice` method. Which method generally performs better?
 
+### Doubly Linked List Answers
+1. O(1)
+2. O(1)
+3. O(1)
+4. O(1)
+5. O(1)
+6. O(1)
+7. O(1)
+8. O(1)
+9. O(1)
+10. O(1)
+10.a. They both perform O(1). I think the Array.splice method would perform better for larger deletions.
 
 ## Binary Search Tree
 
@@ -62,6 +87,13 @@ For each of the methods associated with each data structure, classify it based o
 5. What is the runtime complexity of `breadthFirstForEach`?
 
 6. [Stretch Question] What is the runtime complexity of your `checkBalanced` function?
+
+### Binary Search Tree Answers
+1. O(log n)
+2. O(log n)
+3. O(n log n)
+4. O(n)
+5. O(n)
 
 ## Heap
 
@@ -78,3 +110,12 @@ For each of the methods associated with each data structure, classify it based o
 6. What is the runtime complexity of `delete`?
 
 7. What is the runtime complexity of `getMax`?
+
+### Heap Answers
+1. O(n log n)ß
+2. O(1)
+3. O(n)
+4. O(n)
+5. O(log n)
+6. O(log n)
+7. O(1)
